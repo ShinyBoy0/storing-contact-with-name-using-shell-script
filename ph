@@ -3,12 +3,20 @@
 
 
 #type ./ph
-# to see expected param3ter
+# to see expected param3ter [new or get]
 
 
 # Create file as DATABASE
 
 PHONE=$PWD/.databaseForList.txt
+
+
+# rename the file name to ph from ph.sh
+if [ ! -d '$PWD/ph.sh' ] ; then
+        mv "$PWD/ph.sh" "$PWD/ph"
+        echo "use ./ph [new, get] ..."
+fi
+
 
 
 # if no command line parameters ($#), there
