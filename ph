@@ -11,13 +11,6 @@
 PHONE=$PWD/.databaseForList.txt
 
 
-# rename the file name to ph from ph.sh
-if [ ! -d '$PWD/ph.sh' ] ; then
-        mv "$PWD/ph.sh" "$PWD/ph"
-        echo "use ./ph [new, get] ..."
-fi
-
-
 
 # if no command line parameters ($#), there
 #  or do not know, so ask what're talking about.
