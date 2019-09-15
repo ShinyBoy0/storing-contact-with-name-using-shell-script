@@ -3,15 +3,15 @@
 
 ## To use file, give permission using chmod
 example:
-#### - chmod 755 ph
+#### `chmod 755 ph`
 
 ## To store data, use ./ph new ....
 example:
-#### ./ph new bebal 233-233-33
+#### `./ph new bebal 233-233-33`
 
 ## To get the data, use ./ph get ....
 example:
-#### ./ph get bebal
+#### `./ph get bebal`
 
 
 #### Credit to bible linux Book!
